@@ -25,7 +25,7 @@ const dEl = document.querySelector(".d");
 const eEl = document.querySelector('.e');
 const fEl = document.querySelector('.f');
 
-console.log(a, b, c, d, e, f);
+console.log(aEl, bEl, cEl, dEl, eEl, fEl);
 
 //each little topping (img/button) correlates to its full size .png overlay
 
