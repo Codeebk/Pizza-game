@@ -48,21 +48,36 @@ h4 {
     text-align: center;
 }
 
-input[type="submit"] {
-    background: url("https://i.imgur.com/Dx69SpL.png");
+button[type="topping-buttons"] {
+    background: url("https://i.imgur.com/qyfdzFc.png");
     background-size: cover;
     height: 80px;
     width: 80px;
     background-color: transparent;
     color: black;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     cursor: pointer;
+    border: 0px;
   }
 
-/* .a {
+  button[type="bake-button"] {
+    
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    background-color: transparent;
+    color: black;
+    margin-bottom: 0px;
+    cursor: pointer;
+    border: 0px;
+  }
+
+.a {
     grid-column: 1 ;
     grid-row: 2;
-} */
+}
+
+
 
 .b {
     grid-column: 2;

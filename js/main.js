@@ -3,38 +3,29 @@
 
 //var toppings = document.getElementById('column-left');    
    
-
 const toppings = {
-     a: {
-         imgUrl: 'images/cheese-pizza.png'
-     },
-     b: {
-         imgUrl: 'images/cheese-pizza.png'
-     },
-     c: {
-         imgUrl: 'images/cheese-pizza.png'
-     },
-     d: {
-         imgUrl: 'images/cheese-pizza.png'
-     },
-     e: {
-         imgUrl: 'images/cheese-pizza.png'
-     },
-     f: {
-         imgUrl: 'images/cheese-pizza.png'
-     },
+    a : {imgUrl: 'images/pepperoni.png'},
+    b : {imgUrl: 'images/pepperoni.png'},
+    c : {imgUrl: 'images/pepperoni.png'},
+    d : {imgUrl: 'images/pepperoni.png'},
+    e : {imgUrl: 'images/pepperoni.png'},
+    f : {imgUrl: 'images/pepperoni.png'},
+};
 
- };
 
 /*----- app's state (variables) -----*/
 var pizza = [];
 
 /*----- cached element references -----*/
-// const a = document.getElementsByClassName(a);
-const a = document.querySelector("div .a");
-console.log(a);
-const b = document.querySelector('b');
-const c = document.querySelector('c');
+
+const aEl = document.querySelector('.a');
+const bEl = document.querySelector('.b');
+const cEl = document.querySelector('.c');
+const dEl = document.querySelector(".d");
+const eEl = document.querySelector('.e');
+const fEl = document.querySelector('.f');
+
+console.log(a, b, c, d, e, f);
 
 //each little topping (img/button) correlates to its full size .png overlay
 
@@ -45,9 +36,8 @@ const c = document.querySelector('c');
 
 //document.querySelector('toppings').addEventListener('click', addTopping);
 
-document.getElementsByClassName('toppings').addEventListener('click', function() {
-     alert('Button clicked');
-  });
+document.querySelector('.a').addEventListener('click', addTopping);
+document.querySelector('.bake').addEventListener('click', bakePizza);
 
 
 /*----- functions -----*/
@@ -55,8 +45,7 @@ document.getElementsByClassName('toppings').addEventListener('click', function()
 initialize();
 
 function initialize() {
-    //the toppings!!!
-    toppings 
+ 
     //the empty var pizza
 };
 
@@ -64,11 +53,22 @@ function initialize() {
 
 
 
-//if a topping button is pressed update with overlay on pizza
+//when a topping button is pressed update with overlay on pizza
 function addTopping() {
+    alert('Button clicked')
     //add topping clicked to pizza array
 };
 
 // function render() {
-//     column-center.style.backgroundImage = `url(${rps[results.p].imgUrl})`;
+//     
 // }
+
+function bakePizza() {
+    alert('Bake')
+    //if var pizza contains < 2 items
+        //alert "Sorry, you didn't put enough toppings on your pizza and it burned- no pizza for you."
+    //else if var pizza contains 'non food items'
+        //alert "That doesn't go on a pizza! You were poisoned and died."
+    // else
+        //alert "Congrats! you made an edible pizza!"
+};
