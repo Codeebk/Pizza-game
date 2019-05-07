@@ -1,5 +1,9 @@
+html {
+    height: 100%;
+}
+
 body {
-    height: ;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +16,7 @@ h4 {
 
 .game-area {
     display: flex;
+    /* make game area extend to bottom of page */
 }
 
 .game-area div {
@@ -43,32 +48,43 @@ h4 {
     text-align: center;
 }
 
-.A {
+input[type="submit"] {
+    background: url("https://i.imgur.com/Dx69SpL.png");
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    background-color: transparent;
+    color: black;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+
+/* .a {
     grid-column: 1 ;
     grid-row: 2;
-}
+} */
 
-.B {
+.b {
     grid-column: 2;
     grid-row: 2;
 }
 
-.C {
+.c {
     grid-column: 1;
     grid-row: 3;
 }
 
-.D {
+.d {
     grid-column: 2;
     grid-row: 3;
 }
 
-.E {
+.e {
     grid-column: 1;
     grid-row: 4;
 }
 
-.F {
+.f {
     grid-column: 2;
     grid-row: 4;
 }
