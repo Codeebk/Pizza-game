@@ -29,6 +29,9 @@ h4 {
     display: flex;
     order: 2;
     align-items: center;
+    width: 200px;
+    background: url('https://i.imgur.com/Dx69SpL.png');
+    background-size: cover;
 }
 
 .column-left {
@@ -79,6 +82,9 @@ button[type="topping-buttons"] {
     grid-column: 1 ;
     grid-row: 2;
 }
+.pepperoni {
+    background: url("https://i.imgur.com/qyfdzFc.png");
+  }
 
 
 
@@ -108,7 +114,14 @@ button[type="topping-buttons"] {
 }
 
 #pizza-image {
-    width: 100%;
+    
+    position: relative;
+    background-size: cover;
     
     
+}
+
+#img2 {
+    position: absolute;
+    background-size: cover;
 }
