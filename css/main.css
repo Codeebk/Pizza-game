@@ -137,4 +137,5 @@ button[type="topping-buttona"] {
 #img2 {
     position: absolute;
     background-size: cover;
+    background-color: transparent;
 }

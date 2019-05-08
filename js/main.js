@@ -59,7 +59,7 @@ var pizza = {
 function addTopping() {
 //     // alert('Button clicked')
 //     //add topping clicked to pizza array
-document.getElementById('img2').src = pizza.a.imgUrl;
+document.getElementById('img1').src = pizza.a.imgUrl;
 };
 
 
