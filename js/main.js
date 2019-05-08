@@ -18,12 +18,14 @@ var pizza = [];
 
 /*----- cached element references -----*/
 
-const aEl = document.querySelector('.a');
-const bEl = document.querySelector('.b');
-const cEl = document.querySelector('.c');
-const dEl = document.querySelector(".d");
-const eEl = document.querySelector('.e');
-const fEl = document.querySelector('.f');
+const aEl = document.querySelector('.a button');
+const bEl = document.querySelector('.b button');
+const cEl = document.querySelector('.c button');
+const dEl = document.querySelector('.d button');
+const eEl = document.querySelector('.e button');
+const fEl = document.querySelector('.f button');
+
+const aOnPizza = document.querySelector('#pizza-image');
 
 console.log(aEl, bEl, cEl, dEl, eEl, fEl);
 
@@ -36,7 +38,8 @@ console.log(aEl, bEl, cEl, dEl, eEl, fEl);
 
 //document.querySelector('toppings').addEventListener('click', addTopping);
 
-document.querySelector('.a').addEventListener('click', addTopping);
+// document.querySelector('.a')
+// aEl.addEventListener('click', addTopping);
 document.querySelector('.bake').addEventListener('click', bakePizza);
 
 
@@ -50,18 +53,17 @@ function initialize() {
 };
 
 
-
-
-
 //when a topping button is pressed update with overlay on pizza
 function addTopping() {
-    alert('Button clicked')
+    // alert('Button clicked')
     //add topping clicked to pizza array
-};
+    //     document.getElementById('pizza-image').innerHTML = "<img src='https://i.imgur.com/qyfdzFc.png'/>"
+    };
 
-// function render() {
-//     
-// }
+
+function render() {
+    aOnPizza.style.backgroundImage = `url(${toppings[a].imgUrl})`;     
+}
 
 function bakePizza() {
     alert('Bake')
