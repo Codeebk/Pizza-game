@@ -6,8 +6,8 @@
 
 
 var pizza = {
-     a : {imgUrl: 'https://i.imgur.com/qyfdzFc.png'},
-     b : {imgUrl: 'images/mushroom.png', el: document.querySelector('.b button')},
+     a : {imgUrl: 'https://i.imgur.com/sUyfwwK.png'},
+     b : {imgUrl: 'https://i.imgur.com/BURZ1IT.png', el: document.querySelector('.b button')},
      c : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.c button')},
      d : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.d button')},
      e : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.e button')},
@@ -56,11 +56,15 @@ var pizza = {
 
 
 //when a topping button is pressed update with overlay on pizza
-function addTopping() {
-//     // alert('Button clicked')
-//     //add topping clicked to pizza array
-document.getElementById('img1').src = pizza.a.imgUrl;
+function addToppingA() {
+    //add topping clicked to pizza array
+    //
+document.getElementById('imga').src = pizza.a.imgUrl;
 };
+
+function addToppingB() {
+    document.getElementById('imgb').src = pizza.b.imgUrl;
+}
 
 
 // function render() {
