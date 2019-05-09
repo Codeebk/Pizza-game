@@ -7,11 +7,11 @@
 
 var pizza = {
      a : {imgUrl: 'https://i.imgur.com/sUyfwwK.png'},
-     b : {imgUrl: 'https://i.imgur.com/BURZ1IT.png', el: document.querySelector('.b button')},
+     b : {imgUrl: 'https://i.imgur.com/563Wi9B.png', el: document.querySelector('.b button')},
      c : {imgUrl: 'https://i.imgur.com/f470DGB.png', el: document.querySelector('.c button')},
      d : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.d button')},
-     e : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.e button')},
-     f : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.f button')},
+     e : {imgUrl: 'https://i.imgur.com/1DFSnun.png', el: document.querySelector('.e button')},
+     f : {imgUrl: 'https://i.imgur.com/LsNwPan.png', el: document.querySelector('.f button')},
  };
 
 
@@ -57,9 +57,7 @@ var pizza = {
 
 //when a topping button is pressed update with overlay on pizza
 function addToppingA() {
-    //add topping clicked to pizza array
-    //
-document.getElementById('imga').src = pizza.a.imgUrl;
+    document.getElementById('imga').src = pizza.a.imgUrl;
 };
 
 function addToppingB() {
@@ -68,6 +66,18 @@ function addToppingB() {
 
 function addToppingC() {
     document.getElementById('imgc').src = pizza.c.imgUrl;
+}
+
+function addToppingD() {
+    document.getElementById('imgd').src = pizza.d.imgUrl;
+}
+
+function addToppingE() {
+    document.getElementById('imge').src = pizza.e.imgUrl;
+}
+
+function addToppingF() {
+    document.getElementById('imgf').src = pizza.f.imgUrl;
 }
 
 
