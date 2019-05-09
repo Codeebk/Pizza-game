@@ -8,7 +8,7 @@
 var pizza = {
      a : {imgUrl: 'https://i.imgur.com/sUyfwwK.png'},
      b : {imgUrl: 'https://i.imgur.com/BURZ1IT.png', el: document.querySelector('.b button')},
-     c : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.c button')},
+     c : {imgUrl: 'https://i.imgur.com/f470DGB.png', el: document.querySelector('.c button')},
      d : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.d button')},
      e : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.e button')},
      f : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.f button')},
@@ -64,6 +64,10 @@ document.getElementById('imga').src = pizza.a.imgUrl;
 
 function addToppingB() {
     document.getElementById('imgb').src = pizza.b.imgUrl;
+}
+
+function addToppingC() {
+    document.getElementById('imgc').src = pizza.c.imgUrl;
 }
 
 
