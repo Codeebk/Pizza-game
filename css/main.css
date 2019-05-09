@@ -1,5 +1,9 @@
 html {
     height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    background: url("https://i.imgur.com/goKAPUS.jpg");
+    /* background-blend-mode: darken; */
+    background-size: cover;
 }
 
 body {
@@ -8,6 +12,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 h4 {
