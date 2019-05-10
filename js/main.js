@@ -9,7 +9,7 @@ var pizza = {
      a : {imgUrl: 'https://i.imgur.com/sUyfwwK.png'},
      b : {imgUrl: 'https://i.imgur.com/563Wi9B.png', el: document.querySelector('.b button')},
      c : {imgUrl: 'https://i.imgur.com/f470DGB.png', el: document.querySelector('.c button')},
-     d : {imgUrl: 'images/pepperoni.png', el: document.querySelector('.d button')},
+     d : {imgUrl: '', el: document.querySelector('.d button')},
      e : {imgUrl: 'https://i.imgur.com/1DFSnun.png', el: document.querySelector('.e button')},
      f : {imgUrl: 'https://i.imgur.com/LsNwPan.png', el: document.querySelector('.f button')},
  };
@@ -46,13 +46,6 @@ var pizza = {
 
 
 /*----- functions -----*/
-// display pizza with no overlays at start
-// initialize();
-
-// function initialize() {
- 
-//     //the empty var pizza
-// };
 
 
 //when a topping button is pressed update with overlay on pizza
@@ -81,16 +74,13 @@ function addToppingF() {
 }
 
 
-// function render() {
-//     .style.backgroundImage = `url(${toppings[a].imgUrl})`;     
-// }
 
 function bakePizza() {
-    alert('Bake')
+    alert('You baked a pizza!')
     //if var pizza contains < 2 items
         //alert "Sorry, you didn't put enough toppings on your pizza and it burned- no pizza for you."
     //else if var pizza contains 'non food items'
-        //alert "That doesn't go on a pizza! You were poisoned and died."
+        //alert "That doesn't go on a pizza!"
     // else
         //alert "Congrats! you made an edible pizza!"
 };

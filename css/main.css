@@ -140,7 +140,7 @@ button[type="topping-buttona"] {
   }
 
   button[type="topping-buttone"] {
-      background: url("https://i.imgur.com/xG3jrw0.png");
+      background: url("https://i.imgur.com/3IiHg3j.png");
       background-size: 100%;
       height: 90px;
       width: 80px;
@@ -216,4 +216,12 @@ button[type="topping-buttona"] {
     width: 215px;
     background-position-y: center;
     margin-top: 40px;
+}
+
+#imga {
+    z-index: 5;
+}
+
+#imgf {
+    z-index: 6;
 }
