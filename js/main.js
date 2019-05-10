@@ -20,16 +20,7 @@ var pizza = {
 
 /*----- cached element references -----*/
 
-//const aEl = document.querySelector('.a button');
-// const bEl = document.querySelector('.b button');
-// const cEl = document.querySelector('.c button');
-// const dEl = document.querySelector('.d button');
-// const eEl = document.querySelector('.e button');
-// const fEl = document.querySelector('.f button');
 
-// const aOnPizza = document.querySelector('#pizza-image');
-
-// console.log(aEl, bEl, cEl, dEl, eEl, fEl);
 
 //each little topping (img/button) correlates to its full size .png overlay
 
@@ -37,12 +28,6 @@ var pizza = {
 /*----- event listeners -----*/
 
 //when img of topping is clicked then - overlay that topping on pizza
-
-//document.querySelector('toppings').addEventListener('click', addTopping);
-
-// document.querySelector('.a')
-// aEl.addEventListener('click', addTopping);
-// document.querySelector('.bake').addEventListener('click', bakePizza);
 
 
 /*----- functions -----*/
