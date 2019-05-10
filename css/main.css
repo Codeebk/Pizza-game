@@ -49,6 +49,7 @@ h4 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: center;
+    padding-left: -10px;
 }
 
 
@@ -203,7 +204,8 @@ button[type="topping-buttona"] {
 #pizza-image {
     position: relative;
     background-size: cover;
-    padding-top: 60px;
+    padding-top: 35px;
+    padding-left: -10px;
        
 }
 
